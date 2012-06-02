@@ -42,7 +42,7 @@ module Instagram
     # The endpoint that will be used to connect if none is set
     #
     # @note There is no reason to use any other endpoint at this time
-    DEFAULT_ENDPOINT = 'https://api.instagram.com/v1/'.freeze
+    DEFAULT_ENDPOINT = 'https://api.singly.com/proxy/instagram/'.freeze
 
     # The response format appended to the path and sent in the 'Accept' header if none is set
     #
@@ -53,7 +53,7 @@ module Instagram
     DEFAULT_PROXY = nil
 
     # The user agent that will be sent to the API endpoint if none is set
-    DEFAULT_USER_AGENT = "Instagram Ruby Gem #{Instagram::VERSION}".freeze
+    DEFAULT_USER_AGENT = "Instagram Ruby Gem Singly #{Instagram::VERSION}".freeze
 
     # @private
     attr_accessor *VALID_OPTIONS_KEYS
